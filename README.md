@@ -7,7 +7,7 @@
 ## Setting Up a Project
 1. Run the TrainFaceMaskCNN.py file with the correct data set zip file path
 2. After executing the TrainFaceMaskCNN.py, a file will be generated with trained model information that can be used for predicting the images in prediction folder along with Loss-graph and Confusion matrix and a classification report csv file in the results folder.
-3.After successful execution of step 1 run FaceMaskPrediction.py to predict all the images that are present in given prediction folder path.
+3. After successful execution of step 1 run FaceMaskPrediction.py to predict all the images that are present in given prediction folder path.
 4. For all the images in prediction folder it will predict the image into either one of the categories from Cloth_Mask, No_Mask, Surgical_Mask,N95_Mask, Mask_Worn_incorrectly. 
 5. The model will run on the bias evaluation dataset as well. 
 6. All the results will be saved to Result/Prediction folder
