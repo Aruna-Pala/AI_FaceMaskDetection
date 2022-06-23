@@ -12,7 +12,7 @@ class FaceMaskPrediction:
     def loadModel(self):
         # model = Face_Mask_CNN3(num_classes=5)
         model = FaceMaskCNN4(num_classes=5)
-        model.load_state_dict(torch.load('./Results/Old/saved_model.pth'))
+        model.load_state_dict(torch.load('./Model/Main/saved_model.pth'))
         model.eval()
         return model
 
